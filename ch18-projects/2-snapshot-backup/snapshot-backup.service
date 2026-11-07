@@ -1,0 +1,8 @@
+[Unit]
+Description=Daily snapshot backup
+
+[Service]
+Type=oneshot
+Nice=10
+IOSchedulingClass=idle
+ExecStart=/usr/local/bin/snapshot-backup.sh

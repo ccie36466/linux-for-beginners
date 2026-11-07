@@ -1,0 +1,5 @@
+# type  name        target                     port
+ping    gateway     127.0.0.1
+ping    lab2        192.0.2.99
+tcp     lab1-ssh    127.0.0.1                  22
+http    website     http://127.0.0.1/

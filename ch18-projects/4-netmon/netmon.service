@@ -1,0 +1,6 @@
+[Unit]
+Description=Network and service monitor
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/netmon.sh /etc/netmon/targets.txt

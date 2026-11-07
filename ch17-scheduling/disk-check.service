@@ -1,0 +1,6 @@
+[Unit]
+Description=Check root disk usage
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/checkdisk.sh 85
